@@ -16,10 +16,10 @@ group :development, :test do
   gem 'spring'
   gem 'rspec-rails'
   gem 'factory_girl_rails'
+  gem 'faker'
 end
 
 group :test do
-  gem 'faker'
   gem 'shoulda-matchers'
   gem 'capybara', '~> 2.4.0'
   gem 'chromedriver-helper'
