@@ -3,23 +3,50 @@
  *= require_self
  */
 
+/*---------General styles--------------------------*/
+
 body {
   background-color: #E2D8C1;
   color: #086B63;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #content {
   max-width: 950px;
-  margin: 30px auto;
+  margin: 120px auto 30px;
+  padding: 20px;
 }
 
 #header {
-  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  padding: 0 30px;
   background-color: #BFAE95;
+  box-shadow: 2px 2px 5px #999;
+  border-bottom: 3px solid #086B63;
 }
 
 #title {
   float: left;
+  font-size: 3em;
+  text-shadow: 2px 2px 5px #777;
+}
+
+
+/*---------Font styles-----------------------------*/
+
+h1, h2 {
+  font-family: 'Jura', sans-serif;
+}
+
+h2 {
+  padding: 20px 0 10px 0;
+  font-size: 2.2em;
+  border-bottom: 2px solid #086B63;
+  text-shadow: 2px 2px 5px #888;
 }
 
 
@@ -27,6 +54,8 @@ body {
 
 nav {
   float: right;
+  margin-top: 20px;
+  margin-right: 50px;
 }
 
 nav ul {
@@ -35,5 +64,23 @@ nav ul {
 
 nav li {
   display: inline-block;
-  padding-left: 20px;
+  margin-left: 20px;
+}
+
+input[type="submit"] {
+  background-color: #E2D8C1;
+  padding: 4px 6px;
+}
+
+input[type="submit"],
+input[type="text"] {
+  font-size: 0.95em;
+  margin-left: 7px;
+  border-radius: 3px;
+  border: 1px solid #086B63;
+  box-shadow: 2px 2px 5px #999;
+}
+
+input[type="text"] {
+  padding: 3px;
 }

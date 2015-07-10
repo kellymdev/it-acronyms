@@ -74,6 +74,10 @@ acronyms = Acronym.create([ {
                               definition: "Computer Aided Software Testing"
                             },
                             {
+                              name: "CDN",
+                              definition: "Content Delivery Network"
+                            },
+                            {
                               name: "CI",
                               definition: "Continuous Integration"
                             },
@@ -94,6 +98,10 @@ acronyms = Acronym.create([ {
                               definition: "Capability Maturity Model (integrated)"
                             },
                             {
+                              name: "CORS",
+                              definition: "Cross Origin Resource Sharing"
+                            },
+                            {
                               name: "COTS",
                               definition: "Commercial Off The Shelf",
                               description: "Software that has not been customized"
@@ -101,6 +109,10 @@ acronyms = Acronym.create([ {
                             {
                               name: "CRUD",
                               definition: "Create, Read, Update, Delete"
+                            },
+                            {
+                              name: "CSRF",
+                              definition: "Cross-Site Request Forgery"
                             },
                             {
                               name: "CSS",
@@ -280,14 +292,14 @@ acronyms = Acronym.create([ {
                               description: "The main test plan for a project using the Waterfall methodology"
                             },
                             {
-                              name: "MVP",
-                              definition: "Minimum Viable Product",
-                              description: "The core feature or set of features that need to be implemented for an application to be valuable to the user"
-                            },
-                            {
                               name: "MVC",
                               definition: "Model, View, Controller",
                               description: "A software design pattern that separates the data and behaviour from the user interface"
+                            },
+                            {
+                              name: "MVP",
+                              definition: "Minimum Viable Product",
+                              description: "The core feature or set of features that need to be implemented for an application to be valuable to the user"
                             },
                             {
                               name: "OOD",
