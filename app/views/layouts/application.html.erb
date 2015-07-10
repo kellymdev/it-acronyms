@@ -10,23 +10,28 @@
 
   <body>
 
-    <h1>IT Acronyms</h1>
+    <div id="content">
 
-    <nav>
-      <ul>
-        <li>
-          <%= link_to "Acronyms List", acronyms_path %>
-        </li>
-        <li>
-          <%= form_tag("/search", method: "get") do %>
-            <%= text_field_tag :query %>
-            <%= submit_tag("Search") %>
-          <% end %>
-        </li>
-      </ul>
-    </nav>
+      <div id="header">
+        <h1 id="title">IT Acronyms</h1>
 
-    <%= yield %>
+        <nav>
+          <ul>
+            <li>
+              <%= link_to "Acronyms List", acronyms_path %>
+            </li>
+            <li>
+              <%= form_tag("/search", method: "get") do %>
+                <%= text_field_tag :query %>
+                <%= submit_tag("Search") %>
+              <% end %>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <%= yield %>
+    </div>
 
   </body>
 
