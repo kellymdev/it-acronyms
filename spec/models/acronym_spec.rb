@@ -7,6 +7,10 @@ RSpec.describe Acronym, type: :model do
     validate_presence_of(:name)
   end
 
+  it "has a unique name" do
+    validate_uniqueness_of(:name)
+  end
+
   it "has a definition" do
     validate_presence_of(:definition)
   end
