@@ -21,6 +21,24 @@ RSpec.describe AcronymsController do
     end
   end
 
+  describe "GET #show/:id" do
+    before do
+      get :show, { id: acronym.to_param }
+    end
+
+    it "assigns @acronym to the selected acronym" do
+      expect(assigns(:acronym)).to eq(Acronym.find(acronym.id))
+    end
+
+    it "returns http status 200" do
+      expect(response).to have_http_status(200)
+    end
+
+    it "renders the show page" do
+      expect(response).to render_template(:show)
+    end
+  end
+
   after do
     Acronym.destroy_all
   end
