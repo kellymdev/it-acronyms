@@ -45,7 +45,7 @@ RSpec.describe AcronymsController do
     end
 
     it "assigns @acronyms to the result returned by the search" do
-      expect(assigns(:acronyms)).to eq(Acronym.where("name LIKE ?", "AB%"))
+      expect(assigns(:acronyms)).to eq(Acronym.where("lower(name) LIKE ? OR lower(definition) LIKE ?", "%ab%", "%ab%"))
     end
 
     it "returns http status 200" do
