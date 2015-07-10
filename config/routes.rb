@@ -4,4 +4,6 @@ Rails.application.routes.draw do
 
   resources :acronyms, only: [:index, :show]
 
+  get '/search/:query', to: 'acronyms#search', as: 'search'
+
 end

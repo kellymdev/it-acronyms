@@ -39,6 +39,24 @@ RSpec.describe AcronymsController do
     end
   end
 
+  describe "GET #search/:query" do
+    before do
+      get :search, { query: "AB" }
+    end
+
+    it "assigns @acronyms to the result returned by the search" do
+      expect(assigns(:acronyms)).to eq(Acronym.where("name LIKE ?", "AB%"))
+    end
+
+    it "returns http status 200" do
+      expect(response).to have_http_status(200)
+    end
+
+    it "renders the search results page" do
+      expect(response).to render_template(:search)
+    end
+  end
+
   after do
     Acronym.destroy_all
   end

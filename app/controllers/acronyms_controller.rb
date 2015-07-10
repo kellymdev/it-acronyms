@@ -8,4 +8,8 @@ class AcronymsController < ApplicationController
     @acronym = Acronym.find(params[:id])
   end
 
+  def search
+    @acronyms = Acronym.where("name LIKE ?", params[:query] + "%")
+  end
+
 end
