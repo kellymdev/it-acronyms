@@ -10,4 +10,8 @@ RSpec.describe Acronym, type: :model do
   it "has a definition" do
     validate_presence_of(:definition)
   end
+
+  after do
+    Acronym.destroy_all
+  end
 end
