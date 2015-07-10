@@ -1,0 +1,12 @@
+#content a,
+#content a.visited {
+  color: #086B63;
+  border: 1px solid #77A490;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.definition {
+  margin-bottom: 40px;
+}
