@@ -5,7 +5,11 @@ RSpec.describe "Searching for acronyms" do
 
   context "Search that returns results" do
     before do
-      visit "/search/AB"
+      visit "/acronyms"
+      within('nav') do
+        fill_in "query", with: "AB"
+        click_button "Search"
+      end
     end
 
     it "displays the search results page" do
