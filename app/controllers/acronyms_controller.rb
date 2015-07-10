@@ -1,7 +1,7 @@
 class AcronymsController < ApplicationController
 
   def index
-    @acronyms = Acronym.all
+    @acronyms = Acronym.all.order(:name)
   end
 
 end
