@@ -1,5 +1,3 @@
 <h2>Acronyms</h2>
 
-<% @acronyms.each do |acronym| %>
-  <p><%= link_to acronym.name, acronym_path(acronym) %> - <%= acronym.definition %></p>
-<% end %>
+<%= render partial: "definition" %>
