@@ -3,6 +3,7 @@
 
   <head>
     <title>IT Acronyms</title>
+    <link href='http://fonts.googleapis.com/css?family=Jura|Open+Sans' rel='stylesheet' type='text/css'>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
@@ -10,23 +11,23 @@
 
   <body>
 
-    <h1>IT Acronyms</h1>
+      <div id="header">
+        <h1 id="title">IT Acronyms</h1>
+        <nav>
+          <ul>
+            <li>
+              <%= form_tag("/search", method: "get") do %>
+                <%= text_field_tag :query %>
+                <%= submit_tag("Search") %>
+              <% end %>
+            </li>
+          </ul>
+        </nav>
+      </div>
 
-    <nav>
-      <ul>
-        <li>
-          <%= link_to "Acronyms List", acronyms_path %>
-        </li>
-        <li>
-          <%= form_tag("/search", method: "get") do %>
-            <%= text_field_tag :query %>
-            <%= submit_tag("Search") %>
-          <% end %>
-        </li>
-      </ul>
-    </nav>
-
-    <%= yield %>
+      <div id="content">
+        <%= yield %>
+      </div>
 
   </body>
 
