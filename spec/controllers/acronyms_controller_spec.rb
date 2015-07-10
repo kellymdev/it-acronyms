@@ -12,8 +12,8 @@ RSpec.describe AcronymsController do
       expect(response).to have_http_status(200)
     end
 
-    it "assigns @acronyms to all acronyms" do
-      expect(assigns(:acronyms)).to eq(Acronym.all)
+    it "assigns @acronyms to all acronyms ordered by name" do
+      expect(assigns(:acronyms)).to eq(Acronym.all.order(:name))
     end
 
     it "renders the index view" do
