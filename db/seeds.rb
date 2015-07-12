@@ -78,12 +78,16 @@ acronyms = Acronym.create([ {
                               definition: "Content Delivery Network"
                             },
                             {
+                              name: "CGI",
+                              definition: "Common Gateway Interface"
+                            },
+                            {
                               name: "CI",
                               definition: "Continuous Integration"
                             },
                             {
                               name: "CLI",
-                              definition: "Client Level Interface"
+                              definition: "Client Level Interface or Command Line Interface"
                             },
                             {
                               name: "CM",
@@ -197,6 +201,11 @@ acronyms = Acronym.create([ {
                               definition: "Graphical User Interface/User Interface"
                             },
                             {
+                              name: "HABTM",
+                              definition: "has_and_belongs_to_many",
+                              description: "A many to many ActiveRecord relationship type, linked through a join table"
+                            },
+                            {
                               name: "HTML",
                               definition: "Hypertext Markup Language"
                             },
@@ -302,6 +311,15 @@ acronyms = Acronym.create([ {
                               description: "The core feature or set of features that need to be implemented for an application to be valuable to the user"
                             },
                             {
+                              name: "NaN",
+                              definition: "Not a number"
+                            },
+                            {
+                              name: "ODBC",
+                              definition: "Open DataBase Connectivity",
+                              description: "A method used to access data from a database"
+                            },
+                            {
                               name: "OOD",
                               definition: "Object Oriented Design"
                             },
@@ -391,6 +409,10 @@ acronyms = Acronym.create([ {
                               name: "SAAS",
                               definition: "Software As A Service",
                               description: "Software available as a subscription with an ongoing monthly cost"
+                            },
+                            {
+                              name: "SASS",
+                              definition: "Syntactically Awesome StyleSheets"
                             },
                             {
                               name: "SDLC",
