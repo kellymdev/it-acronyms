@@ -10,7 +10,8 @@ class AcronymsController < ApplicationController
 
   def search
     term = "%" + params[:query].downcase + "%"
-    @acronyms = Acronym.where("lower(name) LIKE ? OR lower(definition) LIKE ?", term, term)
+    @acronyms = Acronym.where("lower(name) LIKE ?", term)
+    @definitions = Acronym.where("lower(definition) LIKE ?", term)
   end
 
 end
