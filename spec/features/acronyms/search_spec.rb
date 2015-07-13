@@ -13,9 +13,8 @@ RSpec.describe "Searching for acronyms" do
     end
 
     it "displays the search results page" do
-      within('h2') do
-        expect(page).to have_content("Search Results")
-      end
+      expect(page).to have_content("Search Results - Acronyms")
+      expect(page).to have_content("Search Results - Definitions")
     end
 
     it "displays the name of the acronyms that matched the search term" do
