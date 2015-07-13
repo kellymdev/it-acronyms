@@ -123,6 +123,11 @@ acronyms = Acronym.create([ {
                               definition: "Cascading Style Sheet"
                             },
                             {
+                              name: "CSSOM",
+                              definition: "CSS (Cascading Style Sheet) Object Model",
+                              description: "Object model constructed from the stylesheet rules and resources"
+                            },
+                            {
                               name: "CSV",
                               definition: "Comma Separated Values",
                               description: "A file containing rows of data separated by commas"
@@ -134,6 +139,14 @@ acronyms = Acronym.create([ {
                             {
                               name: "DBMS",
                               definition: "Database Management System"
+                            },
+                            {
+                              name: "DHTML",
+                              definition: "Dynamic HTML (Hypertext markup language)"
+                            },
+                            {
+                              name: "DNS",
+                              definition: "Domain Name System"
                             },
                             {
                               name: "DOM",
@@ -171,6 +184,10 @@ acronyms = Acronym.create([ {
                               name: "ERB",
                               definition: "Embedded Ruby",
                               description: "Used for creating Ruby web templates"
+                            },
+                            {
+                              name: "FF",
+                              definition: "Firefox"
                             },
                             {
                               name: "FIFO",
@@ -218,6 +235,10 @@ acronyms = Acronym.create([ {
                               definition: "Information and Communications Technology"
                             },
                             {
+                              name: "IE",
+                              definition: "Internet Explorer"
+                            },
+                            {
                               name: "IIFE",
                               definition: "Immediately Invoked Function Expression"
                             },
@@ -242,6 +263,10 @@ acronyms = Acronym.create([ {
                             {
                               name: "ISO",
                               definition: "International Standards Organisation"
+                            },
+                            {
+                              name: "ISP",
+                              definition: "Internet Service Provider"
                             },
                             {
                               name: "ISTQB",
@@ -352,6 +377,10 @@ acronyms = Acronym.create([ {
                               description: "Testing to ensure that application changes have been successfully deployed to the production environment"
                             },
                             {
+                              name: "PLT",
+                              definition: "Page Load Time"
+                            },
+                            {
                               name: "PM",
                               definition: "Project Manager"
                             },
@@ -445,6 +474,10 @@ acronyms = Acronym.create([ {
                               name: "TA",
                               definition: "Test Analyst",
                               description: "Software tester"
+                            },
+                            {
+                              name: "TCP",
+                              definition: "Transmission Control Protocol"
                             },
                             {
                               name: "TDD",
