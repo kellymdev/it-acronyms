@@ -19,6 +19,10 @@ acronyms = Acronym.create([ {
                               definition: "Application Program Interface"
                             },
                             {
+                              name: "AUP",
+                              definition: "Acceptable Use Policy"
+                            },
+                            {
                               name: "AUT",
                               definition: "Application Under Test",
                               description: "Refers to the software being tested"
@@ -52,6 +56,10 @@ acronyms = Acronym.create([ {
                             {
                               name: "BDD",
                               definition: "Behaviour Driven Development"
+                            },
+                            {
+                              name: "BI",
+                              definition: "Business Intelligence"
                             },
                             {
                               name: "BL",
@@ -123,6 +131,11 @@ acronyms = Acronym.create([ {
                               definition: "Cascading Style Sheet"
                             },
                             {
+                              name: "CSSOM",
+                              definition: "CSS (Cascading Style Sheet) Object Model",
+                              description: "Object model constructed from the stylesheet rules and resources"
+                            },
+                            {
                               name: "CSV",
                               definition: "Comma Separated Values",
                               description: "A file containing rows of data separated by commas"
@@ -134,6 +147,14 @@ acronyms = Acronym.create([ {
                             {
                               name: "DBMS",
                               definition: "Database Management System"
+                            },
+                            {
+                              name: "DHTML",
+                              definition: "Dynamic HTML (Hypertext markup language)"
+                            },
+                            {
+                              name: "DNS",
+                              definition: "Domain Name System"
                             },
                             {
                               name: "DOM",
@@ -171,6 +192,10 @@ acronyms = Acronym.create([ {
                               name: "ERB",
                               definition: "Embedded Ruby",
                               description: "Used for creating Ruby web templates"
+                            },
+                            {
+                              name: "FF",
+                              definition: "Firefox"
                             },
                             {
                               name: "FIFO",
@@ -218,6 +243,10 @@ acronyms = Acronym.create([ {
                               definition: "Information and Communications Technology"
                             },
                             {
+                              name: "IE",
+                              definition: "Internet Explorer"
+                            },
+                            {
                               name: "IIFE",
                               definition: "Immediately Invoked Function Expression"
                             },
@@ -242,6 +271,10 @@ acronyms = Acronym.create([ {
                             {
                               name: "ISO",
                               definition: "International Standards Organisation"
+                            },
+                            {
+                              name: "ISP",
+                              definition: "Internet Service Provider"
                             },
                             {
                               name: "ISTQB",
@@ -311,6 +344,11 @@ acronyms = Acronym.create([ {
                               description: "The core feature or set of features that need to be implemented for an application to be valuable to the user"
                             },
                             {
+                              name: "MVVM",
+                              definition: "Model, View, View-Model",
+                              description: "A software design pattern"
+                            },
+                            {
                               name: "NaN",
                               definition: "Not a number"
                             },
@@ -352,6 +390,10 @@ acronyms = Acronym.create([ {
                               description: "Testing to ensure that application changes have been successfully deployed to the production environment"
                             },
                             {
+                              name: "PLT",
+                              definition: "Page Load Time"
+                            },
+                            {
                               name: "PM",
                               definition: "Project Manager"
                             },
@@ -375,6 +417,10 @@ acronyms = Acronym.create([ {
                             {
                               name: "RDBMS",
                               definition: "Relational Database Management System"
+                            },
+                            {
+                              name: "RDF",
+                              definition: "Resource Description Framework"
                             },
                             {
                               name: "RE",
@@ -419,6 +465,10 @@ acronyms = Acronym.create([ {
                               definition: "Software Development Lifecycle"
                             },
                             {
+                              name: "SMACSS",
+                              definition: "Scalable and Modular Architecture for CSS"
+                            },
+                            {
                               name: "SOA",
                               definition: "Service Oriented Architecture"
                             },
@@ -426,6 +476,10 @@ acronyms = Acronym.create([ {
                               name: "SOLID",
                               definition: "Single responsibility, Open - closed, Liskov substitution, Interface Segregation, Dependency inversion",
                               description: "Principles of Object Oriented Design"
+                            },
+                            {
+                              name: "SPA",
+                              definition: "Single Page Application"
                             },
                             {
                               name: "SPICE",
@@ -445,6 +499,10 @@ acronyms = Acronym.create([ {
                               name: "TA",
                               definition: "Test Analyst",
                               description: "Software tester"
+                            },
+                            {
+                              name: "TCP",
+                              definition: "Transmission Control Protocol"
                             },
                             {
                               name: "TDD",
@@ -500,6 +558,14 @@ acronyms = Acronym.create([ {
                             {
                               name: "UX",
                               definition: "User Experience"
+                            },
+                            {
+                              name: "W3C",
+                              definition: "World Wide Web Consortium"
+                            },
+                            {
+                              name: "WHATWG",
+                              definition: "Web Hypertext Application Technology Working Group"
                             },
                             {
                               name: "WWW",
