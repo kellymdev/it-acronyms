@@ -19,6 +19,10 @@ acronyms = Acronym.create([ {
                               definition: "Application Program Interface"
                             },
                             {
+                              name: "AUP",
+                              definition: "Acceptable Use Policy"
+                            },
+                            {
                               name: "AUT",
                               definition: "Application Under Test",
                               description: "Refers to the software being tested"
@@ -52,6 +56,10 @@ acronyms = Acronym.create([ {
                             {
                               name: "BDD",
                               definition: "Behaviour Driven Development"
+                            },
+                            {
+                              name: "BI",
+                              definition: "Business Intelligence"
                             },
                             {
                               name: "BL",
@@ -336,6 +344,11 @@ acronyms = Acronym.create([ {
                               description: "The core feature or set of features that need to be implemented for an application to be valuable to the user"
                             },
                             {
+                              name: "MVVM",
+                              definition: "Model, View, View-Model",
+                              description: "A software design pattern"
+                            },
+                            {
                               name: "NaN",
                               definition: "Not a number"
                             },
@@ -406,6 +419,10 @@ acronyms = Acronym.create([ {
                               definition: "Relational Database Management System"
                             },
                             {
+                              name: "RDF",
+                              definition: "Resource Description Framework"
+                            },
+                            {
                               name: "RE",
                               definition: "Requirements Engineering"
                             },
@@ -448,6 +465,10 @@ acronyms = Acronym.create([ {
                               definition: "Software Development Lifecycle"
                             },
                             {
+                              name: "SMACSS",
+                              definition: "Scalable and Modular Architecture for CSS"
+                            },
+                            {
                               name: "SOA",
                               definition: "Service Oriented Architecture"
                             },
@@ -455,6 +476,10 @@ acronyms = Acronym.create([ {
                               name: "SOLID",
                               definition: "Single responsibility, Open - closed, Liskov substitution, Interface Segregation, Dependency inversion",
                               description: "Principles of Object Oriented Design"
+                            },
+                            {
+                              name: "SPA",
+                              definition: "Single Page Application"
                             },
                             {
                               name: "SPICE",
@@ -533,6 +558,14 @@ acronyms = Acronym.create([ {
                             {
                               name: "UX",
                               definition: "User Experience"
+                            },
+                            {
+                              name: "W3C",
+                              definition: "World Wide Web Consortium"
+                            },
+                            {
+                              name: "WHATWG",
+                              definition: "Web Hypertext Application Technology Working Group"
                             },
                             {
                               name: "WWW",
