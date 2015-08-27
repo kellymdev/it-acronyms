@@ -469,6 +469,16 @@ acronyms = Acronym.create([ {
                               definition: "Return On Investment"
                             },
                             {
+                              name: "ROR",
+                              definition: "Ruby On Rails",
+                              description: "A web development framework based on Ruby."
+                            },
+                            {
+                              name: "RSS",
+                              definition: "Rich Site Summary or Really Simple Syndication",
+                              description: "Publishing of frequently updated information (e.g. blog posts, news articles) via a web feed."
+                            },
+                            {
                               name: "RUP",
                               definition: "Rational Unified Process"
                             },
@@ -486,6 +496,11 @@ acronyms = Acronym.create([ {
                               definition: "Syntactically Awesome StyleSheets"
                             },
                             {
+                              name: "SCP",
+                              definition: "Secure Copy",
+                              description: "A method of securely copying files between two computers or servers."
+                            },
+                            {
                               name: "SCSS",
                               definition: "Sassy CSS",
                               description: "The main syntax for SASS (Syntactically Awesome Stylesheets) from version 3 on. It is a superset of CSS3's syntax."
@@ -493,6 +508,11 @@ acronyms = Acronym.create([ {
                             {
                               name: "SDLC",
                               definition: "Software Development Lifecycle"
+                            },
+                            {
+                              name: "SFTP",
+                              definition: "Secure File Transfer Protocol or SSH File Transfer Protocol",
+                              description: "A file transfer protocol that uses SSH (Secure Shell) over a secure connection."
                             },
                             {
                               name: "SMACSS",
@@ -630,7 +650,18 @@ acronyms = Acronym.create([ {
                               definition: "Extreme Programming"
                             },
                             {
+                              name: "XSL",
+                              definition: "Extensible Stylesheet Language",
+                              description: "A stylesheet language for XML documents."
+                            },
+                            {
+                              name: "XSLT",
+                              definition: "Extensible Stylesheet Language Transformations",
+                              description: "A language for transforming XML documents into another language (such as JSON or HTML), or into another XML document."
+                            },
+                            {
                               name: "YAML",
-                              definition: "Yet Another Markup Language"
+                              definition: "YAML Ain't Markup Language",
+                              description: "A data serialization format that is human-readable. Early in its development, YAML meant 'Yet Another Markup Language'."
                             }
                           ])
