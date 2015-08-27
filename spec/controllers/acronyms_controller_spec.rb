@@ -13,7 +13,7 @@ RSpec.describe AcronymsController do
     end
 
     it "assigns @acronyms to all acronyms ordered by name" do
-      expect(assigns(:acronyms)).to eq(Acronym.all.order(:name))
+      expect(assigns(:acronyms)).to eq(Acronym.all.order('lower(name)'))
     end
 
     it "renders the index view" do

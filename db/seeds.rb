@@ -141,6 +141,10 @@ acronyms = Acronym.create([ {
                               description: "A file containing rows of data separated by commas"
                             },
                             {
+                              name: "CTO",
+                              definition: "Chief Technology Officer"
+                            },
+                            {
                               name: "DB",
                               definition: "Database"
                             },
@@ -154,7 +158,8 @@ acronyms = Acronym.create([ {
                             },
                             {
                               name: "DNS",
-                              definition: "Domain Name System"
+                              definition: "Domain Name System",
+                              description: "The system that allows users to access websites using a domain name rather than an IP address."
                             },
                             {
                               name: "DOM",
@@ -212,6 +217,11 @@ acronyms = Acronym.create([ {
                               definition: "Failure Mode and Effect Analysis"
                             },
                             {
+                              name: "FTP",
+                              definition: "File Transfer Protocol",
+                              description: "A network protocol used to transfer files between two host computers or servers."
+                            },
+                            {
                               name: "FURPS",
                               definition: "Functionality, Usability, Reliability, Performance, Security",
                               description: "A model for classifying software quality attributes (functional and non-functional requirements)"
@@ -229,6 +239,11 @@ acronyms = Acronym.create([ {
                               name: "HABTM",
                               definition: "has_and_belongs_to_many",
                               description: "A many to many ActiveRecord relationship type, linked through a join table"
+                            },
+                            {
+                              name: "HAML",
+                              definition: "HTML Abstraction Markup Language",
+                              description: "An html templating language that was built for Ruby, but has also been implemented in several other languages."
                             },
                             {
                               name: "HTML",
@@ -385,6 +400,11 @@ acronyms = Acronym.create([ {
                               description: "The area of the software being tested, or the application being tested"
                             },
                             {
+                              name: "PHP",
+                              definition: "PHP: Hypertext Preprocessor",
+                              description: "A programming language. The PHP acronym originated from 'Personal Home Page', but over time the definition has been updated to 'PHP: Hypertext Preprocessor'."
+                            },
+                            {
                               name: "PIV",
                               definition: "Post Implementation Verification",
                               description: "Testing to ensure that application changes have been successfully deployed to the production environment"
@@ -401,6 +421,11 @@ acronyms = Acronym.create([ {
                               name: "PVT",
                               definition: "Production Verification Testing",
                               description: "Testing to ensure that application changes have been successfully deployed to the production environment"
+                            },
+                            {
+                              name: "px",
+                              definition: "Pixels",
+                              description: "Used to specify sizes for fonts, borders, margins etc. in CSS."
                             },
                             {
                               name: "QA",
@@ -461,12 +486,22 @@ acronyms = Acronym.create([ {
                               definition: "Syntactically Awesome StyleSheets"
                             },
                             {
+                              name: "SCSS",
+                              definition: "Sassy CSS",
+                              description: "The main syntax for SASS (Syntactically Awesome Stylesheets) from version 3 on. It is a superset of CSS3's syntax."
+                            },
+                            {
                               name: "SDLC",
                               definition: "Software Development Lifecycle"
                             },
                             {
                               name: "SMACSS",
                               definition: "Scalable and Modular Architecture for CSS"
+                            },
+                            {
+                              name: "SMTP",
+                              definition: "Simple Mail Transfer Protocol",
+                              description: "An internet standard for email transmission."
                             },
                             {
                               name: "SOA",
@@ -491,6 +526,11 @@ acronyms = Acronym.create([ {
                               description: "A language for writing database queries"
                             },
                             {
+                              name: "SSH",
+                              definition: "Secure Shell",
+                              description: "An encrypted network protocol for initiating a command-line (shell) session on a remote computer."
+                            },
+                            {
                               name: "SUT",
                               definition: "System Under Test/Software Under Test",
                               description: "The application being tested"
@@ -503,6 +543,11 @@ acronyms = Acronym.create([ {
                             {
                               name: "TCP",
                               definition: "Transmission Control Protocol"
+                            },
+                            {
+                              name: "TCP/IP",
+                              definition: "Transmission Control Protocol/Internet Protocol",
+                              description: "The basic communication language of the internet."
                             },
                             {
                               name: "TDD",
@@ -535,6 +580,11 @@ acronyms = Acronym.create([ {
                             {
                               name: "UAT",
                               definition: "User Acceptance Testing"
+                            },
+                            {
+                              name: "UDP",
+                              definition: "User Datagram Protocol",
+                              description: "An internet communication protocol which uses a simple connectionless transmission model."
                             },
                             {
                               name: "UI",
