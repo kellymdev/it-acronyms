@@ -153,6 +153,10 @@ acronyms = Acronym.create([ {
                               definition: "Database Management System"
                             },
                             {
+                              name: "DDOS",
+                              definition: "Distributed Denial Of Service"
+                            },
+                            {
                               name: "DHTML",
                               definition: "Dynamic HTML (Hypertext markup language)"
                             },
@@ -164,6 +168,10 @@ acronyms = Acronym.create([ {
                             {
                               name: "DOM",
                               definition: "Document Object Model"
+                            },
+                            {
+                              name: "DOS",
+                              definition: "Denial Of Service or Disk Operating System"
                             },
                             {
                               name: "DR",
@@ -342,6 +350,11 @@ acronyms = Acronym.create([ {
                             {
                               name: "LOD",
                               definition: "Level of Detail"
+                            },
+                            {
+                              name: "MITM",
+                              definition: "Man In The Middle",
+                              description: "Security vulnerability that allows users on a network to view cookies (and other data) sent across a server in plain text. Cookies should always be sent using https to avoid this."
                             },
                             {
                               name: "MTP",
@@ -546,6 +559,11 @@ acronyms = Acronym.create([ {
                               description: "A language for writing database queries"
                             },
                             {
+                              name: "SQLI",
+                              definition: "SQL Injection (Structured Query Language Injection)",
+                              description: "Security vulnerability that allows an attacker to run commands on a database via queries entered into a form on a website."
+                            },
+                            {
                               name: "SSH",
                               definition: "Secure Shell",
                               description: "An encrypted network protocol for initiating a command-line (shell) session on a remote computer."
@@ -634,6 +652,10 @@ acronyms = Acronym.create([ {
                               definition: "World Wide Web Consortium"
                             },
                             {
+                              name: "WCAG",
+                              definition: "Web Content Accessibility Guidelines"
+                            },
+                            {
                               name: "WHATWG",
                               definition: "Web Hypertext Application Technology Working Group"
                             },
@@ -658,6 +680,15 @@ acronyms = Acronym.create([ {
                               name: "XSLT",
                               definition: "Extensible Stylesheet Language Transformations",
                               description: "A language for transforming XML documents into another language (such as JSON or HTML), or into another XML document."
+                            },
+                            {
+                              name: "XSRF",
+                              definition: "Cross-Site Request Forgery"
+                            },
+                            {
+                              name: "XSS",
+                              definition: "Cross Site Scripting",
+                              description: "Security vulnerability where an attacker injects a client-side script (e.g. using Javascript) which is then viewed by others or used to steal information about the session (e.g. session cookies)."
                             },
                             {
                               name: "YAML",
