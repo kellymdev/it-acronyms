@@ -5,7 +5,7 @@ class AcronymsController < ApplicationController
   end
 
   def show
-    @acronym = Acronym.find(params[:id])
+    @acronym = Acronym.find_by("id = ?", params[:id])
   end
 
   def search
