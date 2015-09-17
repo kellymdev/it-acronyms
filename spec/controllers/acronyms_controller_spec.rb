@@ -1,12 +1,12 @@
 require 'rails_helper'
 
 RSpec.describe AcronymsController do
+  render_views
+
   let!(:acronym) { create(:acronym) }
 
   describe "GET #index" do
-    before do
-      get :index
-    end
+    before { get :index }
 
     it "returns http status 200" do
       expect(response).to have_http_status(200)
@@ -22,9 +22,7 @@ RSpec.describe AcronymsController do
   end
 
   describe "GET #show/:id" do
-    before do
-      get :show, { id: acronym.to_param }
-    end
+    before { get :show, { id: acronym.to_param } }
 
     it "assigns @acronym to the selected acronym" do
       expect(assigns(:acronym)).to eq(Acronym.find(acronym.id))
@@ -40,9 +38,7 @@ RSpec.describe AcronymsController do
   end
 
   describe "GET #search/:query" do
-    before do
-      get :search, { query: "AB" }
-    end
+    before { get :search, { query: "AB" } }
 
     it "assigns @acronyms to the matching acronyms returned by the search" do
       expect(assigns(:acronyms)).to eq(Acronym.where("lower(name) LIKE ?", "%ab%"))
@@ -59,9 +55,5 @@ RSpec.describe AcronymsController do
     it "renders the search results page" do
       expect(response).to render_template(:search)
     end
-  end
-
-  after do
-    Acronym.destroy_all
   end
 end

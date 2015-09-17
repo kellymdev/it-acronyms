@@ -3,9 +3,7 @@ require 'rails_helper'
 RSpec.describe "Viewing details for an Acronym" do
   let!(:acronym) { create(:acronym) }
 
-  before do
-    visit "/acronyms/#{acronym.id}"
-  end
+  before { visit "/acronyms/#{acronym.id}" }
 
   it "displays the acronym name" do
     within('h2') do

@@ -4,5 +4,4 @@ FactoryGirl.define do
     definition "Always Be Coding"
     description "Eat, sleep, code."
   end
-
 end

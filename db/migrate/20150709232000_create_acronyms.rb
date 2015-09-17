@@ -4,7 +4,6 @@ class CreateAcronyms < ActiveRecord::Migration
       t.string :name
       t.string :definition
       t.string :description
-
       t.timestamps null: false
     end
   end
