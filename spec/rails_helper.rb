@@ -55,6 +55,8 @@ RSpec.configure do |config|
   config.infer_spec_type_from_file_location!
   config.include Capybara::DSL
   config.include FactoryGirl::Syntax::Methods
+  config.include(Shoulda::Matchers::ActiveModel, type: :model)
+  config.include(Shoulda::Matchers::ActiveRecord, type: :model)
 end
 
 Capybara.register_driver :selenium do |app|

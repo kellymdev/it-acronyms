@@ -22,7 +22,7 @@ RSpec.describe AcronymsController do
   end
 
   describe "GET #show/:id" do
-    before { get :show, { id: acronym.to_param } }
+    before { get :show, params: { id: acronym.to_param } }
 
     it "assigns @acronym to the selected acronym" do
       expect(assigns(:acronym)).to eq(Acronym.find(acronym.id))
@@ -38,7 +38,7 @@ RSpec.describe AcronymsController do
   end
 
   describe "GET #search/:query" do
-    before { get :search, { query: "AB" } }
+    before { get :search, params: { query: "AB" } }
 
     it "assigns @acronyms to the matching acronyms returned by the search" do
       expect(assigns(:acronyms)).to eq(Acronym.where("lower(name) LIKE ?", "%ab%"))
