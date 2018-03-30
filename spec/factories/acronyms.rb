@@ -1,4 +1,4 @@
-FactoryGirl.define do
+FactoryBot.define do
   factory :acronym do
     name "ABC"
     definition "Always Be Coding"
