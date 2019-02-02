@@ -1,6 +1,6 @@
 class AcronymsController < ApplicationController
   def index
-    @acronyms = Acronym.all.order('lower(name)')
+    @acronyms = Acronym.all.order(Arel.sql("lower(name)"))
   end
 
   def show
